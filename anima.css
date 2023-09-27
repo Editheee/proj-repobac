@@ -1,0 +1,70 @@
+body{
+    background-color:white ;
+}
+
+.box{
+    background-color: aliceblue;
+    width:200px;
+    height:200px;
+    position:relative;
+    animation-name:myanimation;
+    animation-duration:20s;
+    animation-iteration-count: 3s;/*or infinite*/
+    animation-delay: 0s;
+    animation-direction: aternate;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+}
+
+@keyframes myanimation{
+    0%{background-color:white; left:0px; top:0px; border-radius:0 0 0 0 ;}
+    25%{background-color: red;left:300px; top:0px; border-radius:50% 0 0 0;}
+    50%{background-color: green;left:300px; top:300px;border-radius:50% 50% 0 0;}
+    75%{background-color:blue;left:0px; top:300px;border-radius:50% 50% 50% 0}
+    100%{background-color: white;left:0px ;top:0px; border-radius:50% 50% 50% 50%}
+}
+
+
+/*transition css*/
+body{
+    background-color: aquamarine;
+}
+
+.box{
+ 
+    background-color:white;
+    width: 300px;
+    height: 3000px;
+    position:relative ; 
+    margin: auto; 
+    top: 200px;
+    transition-property: background,border-radius; 
+    transition-duration: 1s;
+    transition-delay: 2s;
+    transition-timing-function: linear;/*ease-in*/
+
+}
+.box:hover{
+    background-color:red ;
+    border-radius: 50%;
+    transform:rotate(180deg);
+}
+
+
+
+/* for box te*/
+.box1{
+    align-self: self-start;
+               }
+               .box2{
+                 align-self: center;  
+               }
+               .box3{
+               align-self: flex-end;    
+               }
+               .box4{
+                 align-self: end;  
+               }
+               .box5{
+                 align-self: bottom;  
+               }

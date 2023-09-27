@@ -1,0 +1,252 @@
+*{
+    margin:0;
+    padding: 0;
+}
+body{
+    background-color: aquamarine;
+  /*border-color:#b6c5b6
+  border:10rem solid  green;
+  border-width: 2px;*/
+}
+.conatiner{
+    width:80%px;
+    margin:auto;
+}
+
+.box-1{
+    background-color:#333;
+    color:#fff;
+margin-top:20px;
+margin: 20px 0;
+border: 8px dotted hsl(298, 97%, 42%);
+padding:20px ;
+
+    /*border-right:5px red solid;
+    border-left:5px red solid;
+    border-top:5px red solid;
+    border-bottom:5px red solid;
+    border:5px red solid; same as all borders above
+border-width: 30px;
+border-bottom-width: 20px ;
+border-top-style:dashed 5px solid ;
+padding-top: 20px;
+padding-bottom: 20px;
+padding-right: 20px;
+padding-left: 20px;
+padding:20 is the same as the above 4p*/
+
+
+}
+
+     
+   
+.box-1 h1{
+    font-style:italic;
+    text-decoration: underline;
+    text-transform: uppercase;
+    letter-spacing:0.2em;
+    background-color:greenyellow ;
+    margin-bottom: 10px;
+}
+
+.box-2{
+    border: 3px dotted #ccc;
+padding: 20px;
+margin:20px 0;
+background-color:rgb(213, 181, 39)
+
+}
+a{
+    text-decoration: none;
+    color:#000;
+}
+a:hover{
+    color:red;
+   
+}
+a:active{
+    color:green;
+}
+a:visited{
+    color:yellow;
+}
+categories li{
+    padding-bottom: 8px ;
+    border-bottom: dotted 1px #333;
+    list-style-image: url(c:\users\pc\desktop\cafe\cafe-java20.jpg);
+
+}
+
+
+categories li a{
+    gap:5px;
+}
+
+
+
+
+.categories{
+    border: 3px #ccc solid;
+    padding: 10px;
+    border-radius: 15px;
+    background-color: aqua;
+    
+}
+
+
+
+
+.categories h2{
+    text-align: center;
+   
+   }
+   .categories ul{
+       padding:0;
+       list-style:img(c:\users\pc\desktop\cafe\cafe-java20.jpg);
+       /*list-style: none ;*/
+       padding-left:20px ;
+       
+   
+   }
+   .categories ul li:nth-child( even){
+   background-color: green;
+   }
+   
+   .categories ul li:nth-child( odd){
+       background-color: purple;
+       }
+   
+   
+   
+   
+   .categories ul li :hover{
+       background-color:hsl(315, 100%, 50%);
+   }
+   
+   .categories ul li a:nth-child(1){
+       color:#ccc;
+   
+.button{
+    background-color: #333;
+    color: #fff;
+    padding: 10px 15px;
+    border: none; 
+}
+.button:hover{
+    background-color: red;
+    color: #fff;
+}
+
+
+}
+.my-form{
+    padding: 20px;
+}
+
+.my-form.form-group{
+    padding: bottom 15px;
+}
+
+
+
+.clr{
+    clear: both;
+}
+
+.my-form label{
+    display: block;
+}
+
+.my-form input[type="text"]{
+    padding:8px ;
+    width: 100%;
+
+}
+
+.my-form input[type="submit"]{
+    background-color: #333;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+}
+
+.block{
+    float:left;
+    width: 33.3%;
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-sizing:border-box;
+gap:10px;
+}
+
+
+#main-block{
+    float:left;
+    width: 70%;
+    padding:15px;
+    box-sizing: border-box;
+}
+
+
+#sidebar{
+    float:right;
+    width: 30%;  
+    background-color: #333;
+    color: #fff;
+    padding: 15px;
+    box-sizing: border-box;
+    
+}
+
+#sidebar:hover{
+    background-color: aqua;
+}
+
+.p-box{
+  width: 600px; 
+   height:300px;
+   border: 1px solid #000;
+   margin-top: 30px;
+   position: relative;
+   background-image: url(c:\users\pc\desktop\cafe\flower222.jpg);
+background-position: 100px 200px;
+background-repeat: no-repeat;
+/*background-position:center center/center-top; sameas 100px 200px*/
+}
+
+.p-box h1{
+    position: absolute;
+ top:100px; 
+ left:200 ; 
+}
+
+.p-box h2{
+    position: absolute;
+    bottom: 40px;
+    right: 100px;
+}
+
+.fix-me{
+  position: fixed; 
+  top:400px;
+}
+
+.my-list li:first-child{
+background-color: red;
+}
+
+.my-list li:-last-child{
+    background-color:blue;
+    }
+
+    .my-list li:nth-child( 5){
+        background-color:yellow;
+
+        }
+
+        .my-list li:nth-child( even){
+            background-color:grey;
+    
+            }
+    
+
